@@ -1,0 +1,166 @@
+body {
+    background-image: url("../images/taylor.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #b8cde0;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 15px;
+}
+
+.register-section {
+    width: 90%;
+    max-width: 450px;
+    padding: 20px;
+    text-align: center;
+}
+
+.site-title {
+    color: white;
+    font-size: 34px;
+    font-weight: bold;
+    margin-bottom: 6px;
+    text-shadow: 2px 2px 4px #263b4f;
+}
+
+.site-subtitle {
+    color: white;
+    font-size: 14px;
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 3px #263b4f;
+}
+
+nav {
+    margin-bottom: 20px;
+}
+
+nav a {
+    display: inline-block;
+    color: white;
+    background-color: rgba(38, 59, 79, 0.75);
+    border: 2px solid #d9a6a6;
+    border-radius: 15px;
+    padding: 7px 15px;
+    margin: 0 5px;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #d9a6a6;
+    color: #263b4f;
+}
+
+h2 {
+    color: white;
+    font-size: 27px;
+    margin-bottom: 7px;
+    text-shadow: 2px 2px 4px #263b4f;
+}
+
+.register-description {
+    color: white;
+    font-size: 13px;
+    margin-bottom: 17px;
+    text-shadow: 1px 1px 3px #263b4f;
+}
+
+label {
+    display: block;
+    width: 80%;
+    margin: 0 auto 5px;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: left;
+    text-shadow: 1px 1px 3px #263b4f;
+}
+
+input {
+    display: block;
+    box-sizing: border-box;
+    width: 80%;
+    margin: 0 auto 11px;
+    padding: 10px;
+    border: 3px solid #d9a6a6;
+    background-color: rgba(255, 248, 235, 0.94);
+    color: #263b4f;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+input:focus {
+    border-color: #6f8fa9;
+    outline: none;
+}
+
+button {
+    display: block;
+    width: 80%;
+    margin: 15px auto;
+    padding: 11px;
+    background-color: #6f8fa9;
+    color: white;
+    border: 3px solid #d9a6a6;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+button:hover {
+    background-color: #d9a6a6;
+    color: #263b4f;
+}
+
+.error-box,
+.success-box {
+    width: 80%;
+    box-sizing: border-box;
+    margin: 0 auto 15px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 13px;
+    text-align: left;
+}
+
+.error-box {
+    background-color: rgba(150, 30, 30, 0.92);
+    color: white;
+}
+
+.success-box {
+    background-color: rgba(40, 130, 70, 0.92);
+    color: white;
+    font-weight: bold;
+}
+
+.login-link {
+    color: white;
+    font-size: 13px;
+    margin-top: 15px;
+    text-shadow: 1px 1px 3px #263b4f;
+}
+
+.login-link a {
+    color: #fff1d6;
+    font-weight: bold;
+}
+
+.login-link a:hover {
+    color: #d9a6a6;
+}

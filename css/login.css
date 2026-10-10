@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("../images/taylor.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    min-height: 100vh;
+}
+
+nav {
+    background-color: rgba(10, 15, 35, 0.9);
+    padding: 18px;
+    text-align: center;
+}
+
+nav a {
+    color: #ffb6d9;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: white;
+}
+
+.container {
+    width: 90%;
+    max-width: 420px;
+    margin: 55px auto;
+    padding: 25px 30px;
+    background-color: rgba(10, 15, 35, 0.75);
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    color: #ffb6d9;
+    font-family: Arial, sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.description {
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 22px;
+    font-size: 14px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 7px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+input {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #fffafc;
+    color: #292438;
+    border: 1px solid #d8c5d0;
+    border-radius: 7px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+input::placeholder {
+    color: #77717a;
+}
+
+input:focus {
+    outline: none;
+    border-color: #ffb6d9;
+}
+
+button {
+    display: block;
+    width: 100%;
+    margin-top: 22px;
+    padding: 12px;
+    background-color: #ffb6d9;
+    color: #17152b;
+    border: none;
+    border-radius: 7px;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ffa2ce;
+}
+
+.alert-error {
+    background-color: rgba(130, 35, 55, 0.45);
+    border: 1px solid #e8a0b0;
+    color: #ffe1e8;
+    padding: 12px;
+    border-radius: 7px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.alert-error ul {
+    margin-bottom: 0;
+    padding-left: 22px;
+}
+
+.alert-success {
+    background-color: rgba(40, 130, 75, 0.45);
+    border: 1px solid #8bcba0;
+    color: #e0ffe8;
+    padding: 12px;
+    border-radius: 7px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.register-link {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.register-link a {
+    color: #ffb6d9;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.register-link a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+    nav {
+        padding: 15px 10px;
+    }
+
+    nav a {
+        margin: 0 10px;
+    }
+
+    .container {
+        width: 92%;
+        margin: 35px auto;
+        padding: 22px 20px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+}
